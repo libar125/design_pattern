@@ -11,14 +11,12 @@ public class XiaomiPhoneBuilder extends AbstractPhoneBuilder {
     public AbstractPhoneBuilder customMemory(String memory) {
         phone.setMem(memory);
         return this;
-
     }
 
     @Override
     public AbstractPhoneBuilder customDisk(String disk) {
         phone.setDisk(disk);
         return this;
-
     }
 
     @Override

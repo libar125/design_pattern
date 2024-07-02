@@ -33,7 +33,7 @@ public class QingMybatis {
         User user = new User();
         user.setAge(1);
         user.setName(username);
-
+        //在缓存中存入克隆对象
         cache.put(username,user.clone());
         return user;
     }
